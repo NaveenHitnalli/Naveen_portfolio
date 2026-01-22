@@ -76,18 +76,24 @@ const About = () => {
             <Card className="p-6 bg-gradient-secondary border-0 text-card-foreground">
               <h3 className="font-semibold text-lg mb-2">Education</h3>
               <div className="space-y-2">
-                <p className="font-medium">BCA in Computer Applications</p>
-                <p className="text-sm opacity-90">Chetana BCA College</p>
-                <p className="text-sm opacity-90">2021 - 2024</p>
+                <p className="font-medium">MCA in Computer Applications</p>
+                <p className="text-sm opacity-90">Basaveshwar Engineering College, Bagalkot (VTU)</p>
+                <p className="text-sm opacity-90">2024 - 2026</p>
                 <div className="flex items-center space-x-2 mt-3">
                   <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm font-medium">
-                    GPA: 9.0/10
+                    GPA: 8.90/10
                   </span>
                 </div>
               </div>
             </Card>
+
+            
+
           </div>
         </div>
+
+
+        
 
         {/* Core Strengths */}
         <div className="mt-16">
