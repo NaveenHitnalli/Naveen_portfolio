@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Code, Database, Server, Wrench, Users, Zap } from 'lucide-react';
+import { Code, Database, Server, Wrench, Users, Zap, Cog } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -40,6 +40,12 @@ const Skills = () => {
       icon: Zap,
       skills: ["Backend Development", "Full-Stack Development", "API Integration", "Data Processing", "Automation"],
       color: "secondary"
+    },
+    {
+      title: "Hardware & Digital Fabrication",
+      icon: Cog,
+      skills: ["Autodesk Fusion 360", "2D & 3D CAD Design", "3D Printing", "Laser Cutting & Engraving", "Automation","CNC Router","Basic Electrical Wiring","Agriculture Technology (AgriTech)"],
+      color: "amber"
     }
   ];
 

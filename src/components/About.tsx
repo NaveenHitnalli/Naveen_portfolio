@@ -87,6 +87,21 @@ const About = () => {
               </div>
             </Card>
 
+            <Card className="p-6 bg-gradient-secondary border-0 text-card-foreground">
+              <h3 className="font-semibold text-lg mb-2"></h3>
+              <div className="space-y-2">
+                <p className="font-medium">BCA in Computer Applications</p>
+                <p className="text-sm opacity-90">Chetana BBA & BCA College </p>
+                <p className="text-sm opacity-90">2021 - 2024</p>
+                <div className="flex items-center space-x-2 mt-3">
+                  <span className="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm font-medium">
+                    GPA: 9.0/10
+                  </span>
+                </div>
+              </div>
+            </Card>
+
+
             
 
           </div>
