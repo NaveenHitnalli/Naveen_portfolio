@@ -37,7 +37,7 @@ const Portfolio = () => {
       ],
       icon: Zap,
       color: "secondary",
-      github: "https://github.com/naveenhitnalli/fastapi-event-management",
+      github: "https://github.com/NaveenHitnalli/Fastapi_event_management",
       demo: "#"
     },
     {
@@ -54,7 +54,7 @@ const Portfolio = () => {
       ],
       icon: TrendingUp,
       color: "primary",
-      github: "https://github.com/naveenhitnalli/stock-prediction-dashboard",
+      github: "https://github.com/NaveenHitnalli/Stock_price-pridication",
       demo: "#"
     }
   ];
