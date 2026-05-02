@@ -6,10 +6,25 @@ import { Calendar, MapPin, Building } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+  title: "Data Science & AI/ML Intern",
+  company: "ERA Foundation (MakeX Program)",
+  period: "Feb 2026 - Present",
+  location: "Hubballi ",
+  description: "Developed an AI-powered shopping assistant using machine learning for personalized product recommendations and user interaction.",
+  achievements: [
+    "Built a recommendation system using content-based filtering to suggest products based on user preferences",
+    "Performed data preprocessing, feature engineering, and exploratory data analysis (EDA)",
+    "Implemented machine learning models using Python, improving recommendation relevance",
+    "Utilized Pandas, NumPy, and Scikit-learn for data analysis and model development",
+    "Designed a basic chatbot interface to enhance user experience and interaction"
+  ],
+  technologies: ["Python", "Machine Learning", "Pandas", "NumPy", "Scikit-learn", "Data Analysis", "EDA", "NLP (basic)"]
+},
+    {
       title: "Web Development Intern (MERN)",
       company: "Infotact Solutions",
       period: "May 2025 - Aug 2025",
-      location: "Remote",
+      location: "Bengaluru",
       description: "Built responsive websites, debugged code, and enhanced performance using React.js and Node.js.",
       achievements: [
         "Developed responsive web applications using MERN stack",
@@ -23,7 +38,7 @@ const Experience = () => {
       title: "Python Developer Intern",
       company: "A Plus Topper",
       period: "Nov 2024 - May 2025",
-      location: "Remote",
+      location: "Bengaluru",
       description: "Developed backend modules, optimized SQL queries, and automated reporting with Python.",
       achievements: [
         "Built robust backend modules using Python frameworks",
@@ -37,7 +52,7 @@ const Experience = () => {
       title: "Python Developer Intern",
       company: "Tech Fortune Technologies",
       period: "May 2024 - Jul 2024",
-      location: "Remote",
+      location: "Bengaluru",
       description: "Full-stack development with Django/Flask and PostgreSQL, automated reports, and UI bug fixes.",
       achievements: [
         "Developed full-stack applications using Django and Flask",

@@ -15,8 +15,8 @@ const Hero = () => {
   const handleResumeDownload = () => {
     // In a real implementation, this would download the actual resume
      const link = document.createElement("a");
-     link.href = "/Naveen_Design_Resume_2026.pdf"; // path in public folder
-     link.download = "Naveen_Design_Resume_2026.pdf"; // optional: force download name
+     link.href = "/Naveen_Hitnalli_05_26.pdf"; // path in public folder
+     link.download = "Naveen_Hitnalli_05_26.pdf"; // optional: force download name
      link.click();
     console.log('Resume download triggered');
   };
@@ -82,7 +82,7 @@ const Hero = () => {
                 size="lg"
                 className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg"
               >  <a
-  href="/Naveen_Design_Resume_2026.pdf"    // 👈 must match file name in public/
+  href="/Naveen_Hitnalli_05_26.pdf"    // 👈 must match file name in public/
   download
   className="border-white/30 text-white hover:bg-white/10 px-8 py-3 text-lg flex items-center justify-center rounded-md"
 ></a>

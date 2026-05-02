@@ -8,7 +8,7 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: Code,
-      skills: ["Python", "JavaScript", "TypeScript", "HTML5", "CSS3", "SQL"],
+      skills: ["Python", "JavaScript", "TypeScript", "HTML5", "CSS3", "SQL","next.js","vue.js"],
       color: "primary"
     },
     {
@@ -26,7 +26,7 @@ const Skills = () => {
     {
       title: "Tools & DevOps",
       icon: Wrench,
-      skills: ["Git", "GitHub", "Postman", "Docker", "GitHub Actions", "VS Code"],
+      skills: ["Git", "GitHub", "Postman", "Docker", "Supabase", "VS Code"],
       color: "secondary"
     },
     {
